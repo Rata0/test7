@@ -112,3 +112,25 @@
 .highlight {
   color: #136EF6;
 }
+
+/*! Форма */
+
+.form {
+  width: 930px;
+  height: 440px;
+  top: 184px;
+  left: 255px;
+  border-radius: 10px 0px 0px 0px;
+  background: url('images/background1.svg');
+}
+
+.form-container {
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
