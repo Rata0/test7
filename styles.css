@@ -1,14 +1,12 @@
 @font-face {
   font-family: 'Onest';
-  src: url('fonts/Onest-Regular.ttf');
-  font-weight: 400;
+  src: url('fonts/Onest-Medium.ttf');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Onest-bolt';
   src: url('fonts/Onest-Bold.ttf');
-  font-weight: 700;
   font-style: normal;
 }
 
@@ -30,9 +28,8 @@
   left: 160px;
   width: 222px;
   height: 42px;
-  font-family: 'Onest', sans-serif;
+  font-family: 'Onest-bolt', sans-serif;
   font-size: 16px;
-  font-weight: 700;
   line-height: 20.8px;
   text-align: left;
   opacity: 1;
@@ -44,10 +41,8 @@
   height: 17px;
   top: 62px;
   left: 160px;
-  font-family: 'Onest-bolt', sans-serif;
-  color: #121212;
+  font-family: 'Onest', sans-serif;
   font-size: 13px;
-  font-weight: 600;
   line-height: 16.9px;
   text-align: left;
 }
@@ -60,9 +55,8 @@
   left: 543px;
   gap: 0px;
   opacity: 0px;
-  font-family: 'Onest-bolt', sans-serif;
+  font-family: 'Onest', sans-serif;
   font-size: 13px;
-  font-weight: 700;
   line-height: 16.9px;
   text-align: left;
 }
@@ -102,7 +96,7 @@
   border-radius: 5px;
   background-color: #136EF6;
   color: #FCFCFC; 
-  font-family: 'Onest-bolt', sans-serif;
+  font-family: 'Onest', sans-serif;
   font-size: 14px;
   line-height: 18.2px;
   text-align: center;
