@@ -153,7 +153,6 @@
   top: 36px;
   font-family: 'Onest-bolt', sans-serif;
   font-size: 34px;
-  font-weight: 700;
   line-height: 44.2px;
   text-align: left;
   color: #136EF6;
@@ -221,6 +220,72 @@
   font-size: 12px;
 }
 
+.inp1 {
+  position: absolute;
+  width: 260px;
+  height: 50px;
+  top: 65px;
+  left: 576px;
+  border-radius: 5px;
+  border: 0.5px solid #136EF6;
+}
+
+.inp2 {
+  position: absolute;
+  width: 260px;
+  height: 50px;
+  top: 128px;
+  left: 576px;
+  border-radius: 5px;
+  border: 0.5px solid #136EF6;
+}
+
+.inp3 {
+  position: absolute;
+  width: 260px;
+  height: 50px;
+  top: 190px;
+  left: 576px;
+  border-radius: 5px;
+  border: 0.5px solid #136EF6;
+}
+
+.inp4 {
+  position: absolute;
+  width: 260px;
+  height: 50px;
+  top: 250px;
+  left: 576px;
+  border-radius: 5px;
+  border: 0.5px solid #136EF6;
+}
+
+.submit {
+  position: absolute;
+  width: 260px;
+  height: 44px;
+  top: 310px;
+  left: 576px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Onest-bolt', sans-serif;
+  background-color: #136EF6;
+  color: #FCFCFC;
+  border: none;
+}
+
+.agreement-text {
+  position: absolute;
+  width: 260px;
+  height: 39px;
+  top: 359px;
+  left: 576px;
+  font-family: 'Onest-regular', sans-serif;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: left;
+}
+
 .revenue-icon {
   position: absolute;
   top: 137px;
@@ -239,6 +304,16 @@
   left: 55px;
 }
 
+.vector-icon {
+  position: absolute;
+  top: 243px;
+  right: 20px;
+}
+
 .onest {
   font-family: 'Onest', sans-serif;
+}
+
+.underlined {
+  text-decoration: underline;
 }
