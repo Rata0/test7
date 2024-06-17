@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Onest';
+  src: url('fonts/Onest-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Onest-bolt';
+  src: url('fonts/Onest-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.banner {
+  width: 1440px;
+  height: 90px;
+  background: url("images/background.svg");
+}
+
+.school-bag {
+  position: absolute;
+  top: 5.77px;
+  left: 64.13px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 15px;
+  left: 160px;
+  width: 222px;
+  height: 42px;
+  font-family: 'Onest', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  text-align: left;
+  opacity: 1;
+}
+
+.additional-text {
+  position: absolute;
+  width: 279px;
+  height: 17px;
+  top: 62px;
+  left: 160px;
+  font-family: 'Onest-bolt', sans-serif;
+  color: #121212;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16.9px;
+  text-align: left;
+}
+
+.new-text {
+  position: absolute;
+  width: 546px;
+  height: 17px;
+  top: 16px;
+  left: 543px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'Onest-bolt', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16.9px;
+  text-align: left;
+}
+
+.bonus-text {
+  position: absolute;
+  width: 546px;
+  height: 42px;
+  top: 35px;
+  left: 543px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'Onest-bolt', sans-serif;
+  font-size: 16px;
+  line-height: 20.8px;
+  text-align: left;
+}
+
+.arrows {
+  position: absolute;
+  top: 23.94px;
+  left: 447.73px;
+}
+
+.arrows-2 {
+  position: absolute;
+  top: 46.18px;
+  left: 1067px;
+}
+
+.button {
+  position: absolute;
+  top: 31px;
+  left: 1120px;
+}
+
+.computer {
+  position: absolute;
+  top: 36.63px;
+  left: 1328.52px;
+}
+
+.highlight {
+  color: #136EF6;
+}
