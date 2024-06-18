@@ -345,3 +345,45 @@ input::placeholder {
 .underlined {
   text-decoration: underline;
 }
+
+.input-wrap {
+  position: relative;
+}
+
+.input-wrap label {
+  font-size: 11px;
+  font-family: 'Onest-Light', sans-serif;
+  line-height: 14.3px;
+  text-align: left;
+  color: #999;
+  opacity: 0;
+}
+
+.input-wrap .text-inp:focus-within + label,
+.input-wrap .text-inp:not(:placeholder-shown) + label {
+  opacity: 1;
+}
+
+.name {
+  position: absolute;
+  top: 68px;
+  right: 312px;
+}
+
+.email {
+  position: absolute;
+  top: 130px;
+  right: 232px;
+}
+
+.phone {
+  position: absolute;
+  top: 194px;
+  right: 244px;
+}
+
+.faculty {
+  position: absolute;
+  top: 253px;
+  right: 237px;
+}

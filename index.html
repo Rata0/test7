@@ -40,10 +40,22 @@
         <div class="gift-description">*Подарок определит сотрудник Хекслета после беседы. Мы уточним ваши намерения, поможем с выбором, а если поймем, что программирование –<br> это не ваше, честно отговорим от обучения</div>
         <img src="images/Vector.svg" class="vector-icon" />
         <form>
-          <input type="text" class="inp1 text-inp" placeholder="Имя">
-          <input type="text" class="inp2 text-inp" placeholder="Электронная почта">
-          <input type="text" class="inp3 text-inp" placeholder="Номер телефона">
-          <input type="text" class="inp4 text-inp" placeholder="Хочу на факультет">
+          <div class="input-wrap">
+            <input type="text" class="inp1 text-inp" id="name" placeholder="Имя">
+            <label for="name" class="name">Имя</label>
+          </div>
+          <div class="input-wrap">
+            <input type="text" class="inp2 text-inp" id="email" placeholder="Электронная почта">
+            <label for="email" class="email">Электронная почта</label>
+          </div>
+          <div class="input-wrap">
+            <input type="text" class="inp3 text-inp" id="phone" placeholder="Номер телефона">
+            <label for="phone" class="phone">Номер телефона</label>
+          </div>
+          <div class="input-wrap">
+            <input type="text" class="inp4 text-inp" id="faculty" placeholder="Хочу на факультет">
+            <label for="faculty" class="faculty">Хочу на факультет</label>
+          </div>
           <button class="submit">Жду звонка</button>
         </form>
         <img src="images/arrow-up1.svg" class="arrows-3" />
