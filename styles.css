@@ -276,12 +276,8 @@
 /*! placeholder */
 
 input::placeholder {
-  font-size: 13px; /* Установите нужный размер шрифта */
-  font-family: 'Onest-regular', sans-serif;
-}
-
-input:focus {
   font-size: 13px;
+  font-family: 'Onest-regular', sans-serif;
 }
 
 /*! placeholder */
@@ -334,6 +330,12 @@ input:focus {
   position: absolute;
   top: 243px;
   right: 20px;
+}
+
+.arrows-3 {
+  position: absolute;
+  top: 268px;
+  right: 120px;
 }
 
 .onest {
