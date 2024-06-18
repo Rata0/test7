@@ -306,6 +306,7 @@ input::placeholder {
   font-size: 10px;
   line-height: 13px;
   text-align: left;
+  color: #4A4A53;
 }
 
 .revenue-icon {
