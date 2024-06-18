@@ -359,7 +359,6 @@ input::placeholder {
   opacity: 0;
 }
 
-.input-wrap .text-inp:focus-within + label,
 .input-wrap .text-inp:not(:placeholder-shown) + label {
   opacity: 1;
 }
